@@ -1,7 +1,7 @@
 import {RequestError} from "./RequestError.ts";
 
 export class RequestService {
-    private static API_URL = "https://7105.api.greenapi.com";
+    private static API_URL = "https://api.greenapi.com";
     private static SAVED_INSTANCE: string | null = null;
     private static SAVED_API_TOKEN: string | null = null;
 
