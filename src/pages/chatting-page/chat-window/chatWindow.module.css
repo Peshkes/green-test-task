@@ -11,7 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: white;
+    background: #faf5f1;
     width: 50%;
 }
 
@@ -40,9 +40,9 @@
 
 .messagesContainer {
     flex: 1;
-    padding: 20px;
+    padding: 5px;
     overflow-y: auto;
-    background: white;
+    background: #fbfbfb;
 }
 
 .messageInput {
