@@ -1,0 +1,13 @@
+.container{
+    text-align: center;
+    padding: 60px;
+}
+
+.header{
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.green{
+    color: var(--primary-color-1);
+}

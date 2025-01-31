@@ -1,0 +1,30 @@
+.sidebar {
+    width: 70px;
+    background-color: var(--text-color-1);
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #374248;
+    box-sizing: border-box;
+}
+
+.profileButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.profileButton:hover {
+    background: #374248;
+}
+
+.profileIcon {
+    width: 100%;
+    border-radius: 50%;
+}

@@ -1,0 +1,29 @@
+.addChatContainer {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    border-bottom: 1px solid #e9edef;
+}
+
+.addButton {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+    background: var(--primary-color-1);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addButton p{
+    margin: -2px 0 0;
+}
+
+.addButton:hover {
+    background: var(--primary-color-2);
+}

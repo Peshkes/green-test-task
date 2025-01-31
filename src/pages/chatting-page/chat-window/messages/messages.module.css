@@ -1,0 +1,57 @@
+.container {
+    max-width: 80%;
+    margin: 4px 8px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    position: relative;
+    word-wrap: break-word;
+}
+
+.incoming {
+    align-self: flex-start;
+    background-color: #ffffff;
+    border-radius: 8px 8px 8px 0;
+    margin-right: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.outgoing {
+    align-self: flex-end;
+    background-color: #d9fdd3;
+    border-radius: 8px 8px 0 8px;
+    margin-left: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.message {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #111b21;
+    margin-bottom: 4px;
+}
+
+.timeStatusContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+}
+
+.time {
+    font-size: 10px;
+    color: #667781;
+    float: right;
+    margin-left: 8px;
+}
+
+.status {
+    display: inline-block;
+    color: #667781;
+    font-size: 12px;
+    letter-spacing: -6px;
+    margin-right: 5px;
+}
+
+.status.read {
+    color: #34b7f1;
+}
